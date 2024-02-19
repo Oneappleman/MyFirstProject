@@ -48,9 +48,9 @@ class TriangleChecker:
         else:
             print("Ура, можно построить треугольник!")
 
-TriangleChecker.a = input("Напиши число для длинны одной стороны треугольника: ")
-TriangleChecker.b = input("Напиши число для длинны второй стороны треугольника: ")
-TriangleChecker.c = input("Напиши число для длинны третьей стороны треугольника: ")
+TriangleChecker.a = input("Напиши число для длины одной стороны треугольника: ")
+TriangleChecker.b = input("Напиши число для длины второй стороны треугольника: ")
+TriangleChecker.c = input("Напиши число для длины третьей стороны треугольника: ")
 TriangleChecker(TriangleChecker.a, TriangleChecker.b, TriangleChecker.c)
 TriangleChecker.is_triangle("",TriangleChecker.a, TriangleChecker.b, TriangleChecker.c)
 
