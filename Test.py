@@ -1,26 +1,53 @@
-class Soda:
-    drink1 = "Cola"
-    drink2 = "Sprite"
-    drink3 = "Dobryi"
-    drink4 = "Pepsi"
-    #dobavka1 = input("Write dobavku: ")
-    #dobavka2 = input("Write dobavku: ")
-    #dobavka3 = input("Write dobavku: ")
-    #dobavka4 = input("Write dobavku: ")
+class TriangleChecker:
+    num1 = ""
+    num2 = ""
+    num3 = ""
 
+    #def __init__(self, num1, num2, num3):
+        #self.num1 = input("Напиши число для длинны одной стороны треугольника: ")
+        #self.num2 = input("Напиши число для длинны второй стороны треугольника: ")
+        #self.num3 = input("Напиши число для длинны третьей стороны треугольника: ")
+        #self.line2 = line23
 
-    def __init__(self, dobavka):
-        self.dobavka = dobavka
+        #self.line3 = line3
 
-    def show_my_drink(self):
-        if self.dobavka == "":
-            print("Regular Soda")
+    def is_triangle(num1, num2, num3):
+        if type(num1) == str:
+            print("Нужно вводить только числа!")
         else:
-            print("Flavour Soda")
+            pass
+        if isinstance(num2, int) == True:
+            pass
+        else:
+            print("Нужно вводить только числа!")
+        if isinstance(num3, int) == True:
+            pass
+        else:
+            print("Нужно вводить только числа!")
+        if (num1 > 0):
+            pass
+        else:
+            print("С отрицательными числами ничего не выйдет!")
+        if (num2 > 0):
+            pass
+        else:
+            print("С отрицательными числами ничего не выйдет!")
+        if (num3 > 0):
+            pass
+        else:
+            print("С отрицательными числами ничего не выйдет!")
+        if (num1+num2) < num3:
+            print("Жаль, но из этого треугольник не сделать")
+        else:
+            print("Ура, можно построить треугольник!")
 
-dobavka1 = Soda("Lime")
+   # def numbers(self):
+    #    num1 = input("Напиши число для длинны одной стороны треугольника: ")
+    #    num2 = input("Напиши число для длинны второй стороны треугольника: ")
+     #   num3 = input("Напиши число для длинны третьей стороны треугольника: ")
+    #numbers()
 
-print(dobavka1)
-#dobavka2 = Soda(input("Write dobavku: "))
-#dobavka3 = Soda(input("Write dobavku: "))
-#dobavka4 = Soda(input("Write dobavku: "))
+TriangleChecker.num1 = input("Напиши число для длинны одной стороны треугольника: ")
+TriangleChecker.num2 = input("Напиши число для длинны второй стороны треугольника: ")
+TriangleChecker.num3 = input("Напиши число для длинны третьей стороны треугольника: ")
+TriangleChecker.is_triangle(TriangleChecker.num1, TriangleChecker.num2, TriangleChecker.num3)
