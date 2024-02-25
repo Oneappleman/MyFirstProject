@@ -8,7 +8,7 @@ for i in range (0,101):
     quad.append(i**3)
     if i != 0:
             #print(num[i], cube[i], quad[i])
-            file1.write(f"{num[i]}, {cube[i]}, {quad[i]} \n")
+            file1.write(f"{num[i]} \t {cube[i]} \t {quad[i]} \n")
     else:
         pass
 
