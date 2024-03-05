@@ -5,6 +5,7 @@ import tkinter #ModuleNotFoundError: No module named 'tkinter'
 
 
 
+
 app = tkinter.Tk()
 x = "link Cat"
 app.geometry("250x250")
