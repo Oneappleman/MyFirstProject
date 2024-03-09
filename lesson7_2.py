@@ -23,7 +23,7 @@ def count_friday():
         weekday = element.weekday()
         el = element.strftime("%d.%m.%Y")
         if weekday == 4:
-            #print(f"Пятница 13-е: {element}")
+            #print(f"Пятница 13-е: {element}"
             mas.append(el)
         else:
             pass
